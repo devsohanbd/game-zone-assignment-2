@@ -79,6 +79,14 @@
     margin: 0 auto;
     text-align: center;
   }
+  .online-games-img-box img{
+    width: 80%;
+  }
+  .online-games-img-box p{
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto;
+  }
   .play-instantly-container{
     width: 95%;
     padding: 20px 0;
@@ -124,10 +132,37 @@
   .sponsors-content img{
     width: 30px;
   }
-  
+
+.footer-menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 30px auto;
+  font-size: 14px;
+  gap: 10px;
+  padding: 0;
+  }
+
+  .footer-menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0px 40px;
+  }
+  .rules-container{
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    gap: 10px;
+    padding-top: 6px;
+  }
+  .rules-container a{
+      padding: 20px 10px;
+  } 
 }
 
-
+/* media responsive for mobile */
 @media screen and (max-width:426px) {
     .nav-ber-container{
     padding: 25px 0;
