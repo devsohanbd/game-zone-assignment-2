@@ -87,15 +87,13 @@
   .play-instantly-img-container{ 
     position: relative;
     width: 50%;
-    border: 1px solid red; 
   }
   .play-instantly-img-container img{
     width: 80%;
   }
   .play-instantly-content{ 
     width: 50%;
-    text-align: center;
-    border: 1px solid red;  
+    text-align: center; 
   }
   .play-instantly-content > h3{ 
     font-size: 36px;
