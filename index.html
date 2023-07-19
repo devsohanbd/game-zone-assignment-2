@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gamer Zone</title>
+    <!-- Favicon Icon  -->
     <link rel="shortcut icon" href="images/Frame.png" type="image/x-icon">
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Tablet Device Responsive Style  -->
+    <link rel="stylesheet" href="css/tablet-responsive.css">
+    <!-- Mobile Device Responsive Style -->
+    <link rel="stylesheet" href="css/mobile-responsive.css">
+    <!-- Font Awesome Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -15,15 +21,15 @@
         <!-- Nav Section Start -->
         <nav class="nav-section">
             <div class="nav-ber-container">
-                <div class="nav-logo-container">
-                    <img src="images/Frame.png" alt="">
-                    <h2><span>G</span>amer</h2>
+                <div class="nav-logo-container"><a href=""><img src="images/Frame.png" alt="">
+                    <h2><span>G</span>amer</h2></a>
+                    
                 </div>
                 <div class="nav-menu-container">
                     <ul>
                         <li><a href="">About Us</a></li>
                         <li><a href="">Developers</a></li>
-                        <li class="follow-us">Follow Us On <a href="http://www.youtube.com"><i class="fa-brands fa-youtube nav-youtube"></i></a><a href="http://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a></li>
+                        <li class="follow-us">Follow Us On <a href="http://www.youtube.com"><i class="fa-brands fa-youtube nav-youtube"></i></a><a href="http://www.tiktok.com"><img src="images/tik-tok.png" alt="" class="tiktok-png"></a></li>
                     </ul>
                 </div>
             </div>   
@@ -36,9 +42,9 @@
                 <div class="banner-content">
                     <h2>Play Like The</h2>
                     <h1>G.O.A.T.</h1>
-                    <p>1-Click instant play</p>
-                    <p>No Download</p>
-                    <p>1000s of supported online games</p>
+                    <p><i class="fa-regular fa-circle-play"></i> 1-Click instant play</p>
+                    <p><i class="fa-solid fa-download"></i> No Download</p>
+                    <p><i class="fa-solid fa-user-group"></i> 1000s of supported online games</p>
                     <div class="banner-button">
                         <button class="btn-primary"><a href="">Sign In</a></button>
                     <button class="btn-primary go-rough"><a href="">Go Rogue</a></button></div>
@@ -63,7 +69,7 @@
                 <div class="we-are-gammer-content">
                     <h2>We are gamer</h2>
                     <p>An international digital games and entertainment company. We develop, publish and distribute multiplayer mobile games. We reach over 400 million players each month and our audience keeps growing.</p>
-                    <button class="btn-primary know-more">know more</button>
+                    <button class="btn-primary know-more"><a href="">know more</a></button>
                     <p>Our purpose...</p>
                     <h3>“unleash the gamer in everyone”</h3>
                 </div>
@@ -77,20 +83,52 @@
             <p>A Collection of Hilarious Videos to Brighten Your Day</p>
             <div class="online-games-img-container">
                 <div class="online-games-img-box">
-                    <img src="images/Rectangle 4.png" alt="">
-                    <p>No Download. No Installs. Play games Instantly on Gamer.</p>
+                    <div class="image-container">
+                        <img src="/images/Rectangle 4.png" alt="" class="box-image"/>
+                        <div class="image-overlay">
+                            <a href=""><i class="fa-solid fa-play"></i></a>
+                            <div class="hover-button">
+                          <button class="play-button"><a href="">Play Now</a></button>
+                        </div>
+                        </div>
+                      </div>
+                      <p>No Download. No Installs. Play games Instantly on Gamer.</p>
                 </div>
                 <div class="online-games-img-box">
-                    <img src="images/Rectangle 5.png" alt="">
-                    <p>Did you score? #unblockedgames #school</p>
+                    <div class="image-container">
+                        <img src="/images/Rectangle 5.png" alt="" class="box-image"/>
+                        <div class="image-overlay">
+                            <a href=""><i class="fa-solid fa-play"></i></a>
+                            <div class="hover-button">
+                          <button class="play-button"><a href="">Play Now</a></button>
+                        </div>
+                        </div>
+                      </div>
+                      <p>Did you score? #unblockedgames #school</p>
                 </div>
                 <div class="online-games-img-box">
-                    <img src="images/Rectangle 7.png" alt="">
-                    <p>Breaking game records like OG</p>
+                    <div class="image-container">
+                        <img src="/images/Rectangle 7.png" alt="" class="box-image"/>
+                        <div class="image-overlay">
+                            <a href=""><i class="fa-solid fa-play"></i></a>
+                            <div class="hover-button">
+                          <button class="play-button"><a href="">Play Now</a></button>
+                        </div>
+                        </div>
+                      </div>
+                      <p>Breaking game records like OG</p>
                 </div>
                 <div class="online-games-img-box">
-                    <img src="images/Rectangle 6.png" alt="">
-                    <p>Busted gaming on school laptop, but you are still lit.</p>
+                    <div class="image-container">
+                        <img src="/images/Rectangle 6.png" alt="" class="box-image"/>
+                        <div class="image-overlay">
+                            <a href=""><i class="fa-solid fa-play"></i></a>
+                            <div class="hover-button">
+                          <button class="play-button"><a href="">Play Now</a></button>
+                        </div>
+                        </div>
+                      </div>
+                      <p>Busted gaming on school laptop, but you are still lit.</p>
                 </div>
             </div>
         </section>
@@ -110,6 +148,40 @@
             </div>
         </section>
         <!-- play instantly End -->
+
+        <!-- Careers Section Start -->
+        <section class="career-section">
+            <div class="careers-container">
+                <div class="career-content">
+                    <h3>Careers</h3>
+                    <p>Gamer is driven to create the best and most fun games for our millions of players all around the world, and we,re always on the lookout for more top talent to join our growing team. If you,d like to help us make great games and be a part of Gamers bright future, we,d love to hear from you.</p>
+                    <div class="careers-list">
+                        <div class="left-side">
+                            <p>Multimedia Artist +<br>
+                                Data Engineer +<br>
+                                Adroid Engineer +<br>
+                                Server Developer +<br>
+                                Group Financial Accountant +<br>
+                                Senior User Acuisition Specialist +</p>
+                        </div>
+                        <div class="right-side">
+                            <p>Lisbon, Portugal <br>
+                                Lisbon, Portugal <br>
+                                Zoetermeer, Netherlands <br>
+                                Lisbon, Portugal <br>
+                                London, United Kingdom <br>
+                                Lisbon, Portugal</p>
+                        </div>
+                    </div>
+                    <button class="see-all-positions"><a href="">See all positions</a></button>
+                </div>
+                
+                <div class="career-img-container">
+                <img src="images/Group 65.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Careers Section End -->
 
         <!-- Sponsors Section Starts -->
         <section class="Sponsors-section">
@@ -173,12 +245,12 @@
         </div>
             <div class="footer-icon-container">
             <div class="social-icon">
-                <a href=""><i class="fa-brands fa-twitter footer-icon"></i></a>
-                <a href=""><i class="fa-brands fa-facebook footer-icon"></i></a>
-                <a href=""><i class="fa-brands fa-youtube footer-icon"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin-in footer-icon"></i></a>
-                <a href=""><i class="fa-brands fa-instagram footer-icon"></i></a>
-                <a href=""><i class="fa-brands fa-apple footer-icon"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter footer-icon"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook footer-icon"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube footer-icon"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in footer-icon"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram footer-icon"></i></a>
+                <a href="https://www.apple.com/"><i class="fa-brands fa-apple footer-icon"></i></a>
             </div>
         </div>
             <div class="rules-container">
@@ -190,11 +262,8 @@
             <div class="copyright">
                 <p>Play Games @ Gamer</p><p>@ 2000-2023 Gamer Bangladesh</p>
             </div>
-            
         </div>
     </footer>
-    <!-- footer End --> 
-
-       
+    <!-- footer End -->     
 </body>
 </html>

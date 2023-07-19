@@ -1,0 +1,197 @@
+@media screen and (min-width:426px) and (max-width:768px) {
+  .nav-ber-container{
+    flex-direction: column;
+  }
+  .nav-menu-container{
+    padding: 20px 0;
+  }
+  .banner-container{
+    width: 90%;
+  }
+
+.banner-content h2{
+  font-size: 25px;
+  text-align: center;
+}
+.banner-content h1{
+  font-size: 50px;
+  padding: 0px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.banner-content p{
+  font-size: 14px;
+  padding: 5px 0;    
+}
+.btn-primary{
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 48px;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  border: none;
+  padding: 12px 25px;
+}
+.banner-button{
+  padding-top: 20px;
+}
+.go-rough{
+  background: #4EC5F7;
+}
+.we-are-gammer-container{
+  width: 90%;
+  margin: 0px auto;
+  padding: 30px 0;
+  background: none;
+}
+.we-are-gammer-img-container{
+  width: 50%;
+  padding: 0px 0; 
+}
+.we-are-gammer-content{
+  text-align: right;
+  width: 50%;
+}
+.we-are-gammer-img-container img{
+  width: 100%;
+  margin: 0px;
+}
+.we-are-gammer-content h2{
+  font-size: 36px;
+}
+.we-are-gammer-content p{
+  font-size: 12px;
+}
+.we-are-gammer-content h3{
+  font-size: 16px;
+  color: #534C64;
+}
+
+  .online-games-container{
+    width: 90%;
+    margin: 20px auto;
+  }
+  .online-games-container h2{
+    font-size: 36px;
+  }
+  .online-games-container p{
+    font-size: 14px;
+  }
+  .online-games-img-container{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    text-align: center;
+  }
+  .online-games-img-box img{
+    width: 100%;
+  }
+  .online-games-img-box p{
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .play-instantly-container{
+    width: 95%;
+    padding: 20px 0;
+    margin: 20px 0;
+  }
+  .play-instantly-img-container{ 
+    position: relative;
+    width: 50%;
+  }
+  .play-instantly-img-container img{
+    width: 80%;
+  }
+  .play-instantly-content{ 
+    width: 50%;
+    text-align: center; 
+  }
+  .play-instantly-content > h3{ 
+    font-size: 36px;
+    font-weight: 700;
+    width: 100%;
+    line-height: 40px;
+     
+  }
+  .play-instantly-content p{
+    color: #534C64;
+    font-size: 16px;
+    text-align: center;
+    max-width: 90%;
+    margin: 24px auto;
+    line-height: 20px;
+  }
+  .little-img{
+    position: absolute;
+    width: 40%;
+    left: -20px;
+    bottom: -30px;
+  }
+
+  .careers-container{
+    width: 90%;
+    padding: 30px 0;
+}
+  .career-content h3{
+      font-size: 34px;
+}
+  .career-content p{
+    font-size: 10px;
+}
+.careers-list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  line-height: 20px;
+}
+.see-all-positions{
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 15px;
+  border-radius: 48px;
+  margin-top: 20px;
+  border: none;
+}
+
+
+  .sponsors-content p{
+    font-size: 16px;
+    min-width: 0px;
+    padding: 5px;
+  }
+  .sponsors-content img{
+    width: 30px;
+  }
+
+.footer-menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 30px auto;
+  gap: 10px;
+  padding: 0;
+  }
+
+  .footer-menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0px 50px;
+    font-size: 14px;
+  }
+  .rules-container{
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    gap: 10px;
+    padding-top: 6px;
+  }
+  .rules-container a{
+      padding: 20px 10px;
+      font-size: 14px;
+  } 
+}
