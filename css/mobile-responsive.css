@@ -72,7 +72,8 @@
       color: #FFF;
       font-size: 14px;
       font-weight: 600;
-      padding: 15px 30px;
+      padding: 15px 0px;
+      width: 120px;
     }
     /* banner section end */
 
@@ -140,6 +141,8 @@
       font-size: 12px;
       padding: 16px 0 20px;
     }
+
+    /* Play Instantly Start */
     .play-instantly-container{
       flex-direction: column;
       text-align: center;
@@ -157,7 +160,7 @@
     }
     .play-instantly-content p{
       color: #534C64;
-      font-size: 10px;
+      font-size: 12px;
       text-align: center;
       max-width: 90%;
       margin: 24px auto;
@@ -176,9 +179,42 @@
       left: -30px;
       bottom: -30px;
     }
+     /* Play Instantly End */
 
+    /* Play games online section Start */
+    .play-games-container{
+      width: 80%;
+      margin: 0 auto;
+      flex-direction: column-reverse;
+    }
+    .minion-image{
+      position: absolute;
+      width: 40%;
+      transform: translate(20px, 40px);
+  }
+  .play-games-img-container{
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+.play-games-content{
+  width: 100%;
+  text-align: center;
+}
+.play-games-content h3{
+  font-size: 36px;
+  line-height: 45px;
+}
+.play-games-content p{
+  color: #534C64;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 24px 0px 0 0;
+  line-height: 30px;
+}
+/* Play games online section End */
 
-
+/* Career Section Start */
     .careers-container{
         flex-direction: column;
         width: 90%;
@@ -212,8 +248,9 @@
         margin: 30px 0;
         border: none;
     }
+    /* Career Section End */
 
-
+    /* Sponsors Section Start */
     .sponsors-container{
       width: 100%;
       background-color: #FFF;
@@ -229,8 +266,9 @@
     .sponsors-content img{
       width: 15px;
     }
+    /* Sponsors Section End */
 
-    /* footer */
+    /* footer Start */
     footer{
       background: #0B0223;
       padding: 70px 0 50px;   
@@ -295,5 +333,6 @@
       font-size: 10px;
       padding: 28px 0px 0px;
     }
+    /* Footer End */
 
 }

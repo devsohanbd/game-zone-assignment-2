@@ -31,7 +31,8 @@
   border-radius: 48px;
   background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
   border: none;
-  padding: 12px 25px;
+  padding: 12px 0px;
+  width: 30%;
 }
 .banner-button{
   padding-top: 20px;
@@ -130,6 +131,34 @@
     left: -20px;
     bottom: -30px;
   }
+
+  /* Play games online section Start */
+  .play-games-container{
+    width: 90%;
+    margin: 100px auto;
+  }
+  .minion-image{
+    position: absolute;
+    width: 40%;
+    transform: translate(20px, 40px);
+    
+  }
+  .play-games-content h3{
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .play-games-content p{
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 24px 0px 0 0;
+    line-height: 30px;
+    
+  }
+  .play-games-content{
+    width: 40%;
+  }
+  /* Play games online section End */
 
   .careers-container{
     width: 90%;
