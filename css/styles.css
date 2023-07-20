@@ -17,6 +17,11 @@
     border: none;
     padding: 21px 40px;
 }
+.btn-primary:hover{
+    cursor: pointer;
+    transform: translateY(-10%);
+    border: 1px solid rgb(58, 245, 58);
+}
 
 /* Nav section Start */
 .nav-section{
@@ -392,18 +397,19 @@
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);       
 }
 .sponsors-container{
+    max-width: 1440px;
     display: flex;
     flex-wrap: wrap;
-    max-width: 1440px;
-    padding: 100px 0;
-    align-items: center;
+    margin: 0px auto;
     justify-content: center;
-    margin: 0 auto;
-    gap: 30px;
+    align-items: center;
+    gap: 20px;
+    padding: 70px 0;
 }
 .sponsors-content{
     display: flex;
     align-items: center;
+    border: 1px solid transparent;
     border-radius: 50px;
     background: #FFF;
     padding: 5px 10px;
@@ -412,7 +418,7 @@
     font-size: 20px;
     font-weight: 600;
     padding-left: 10px;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 .sponsors-content:hover{
     border: 1px solid #FF42A5;

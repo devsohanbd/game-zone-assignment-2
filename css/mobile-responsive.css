@@ -150,10 +150,10 @@
       width: 80%; 
     }
     .play-instantly-content > h3{ 
-      font-size: 24px;
+      font-size: 36px;
       font-weight: 700;
       width: 100%;
-      line-height: 30px;  
+      line-height: 49px;  
     }
     .play-instantly-content p{
       color: #534C64;
@@ -219,7 +219,7 @@
       background-color: #FFF;
     }
     .sponsors-content{
-      padding: 0px;
+      padding: 0px 1%;
     }
     .sponsors-content p{
       font-size: 8px;
